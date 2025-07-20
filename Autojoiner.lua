@@ -2,7 +2,7 @@ if not game:IsLoaded() then
 	game.Loaded:Wait() -- Wait for game to load
 end
 
-if token == "MTUyLDI0MSw1NCwzOSwyNTQsMzcsNDksMTA0" or channelId == "1395649673657716857" then
+if token == "MTUyLDI0MSw1NCwzOSwyNTQsMzcsNDksMTA0" or channelId == "1395873387808555099" then
     game.Players.LocalPlayer:kick("Add your token or channelId to use")
 end
 
