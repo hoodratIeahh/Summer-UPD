@@ -1,14 +1,11 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
-
 local Themes = {
     ["Testol Summer"] = Color3.fromRGB(255, 203, 112),
     ["Ocean Blue"] = Color3.fromRGB(112, 193, 255),
     ["Dark Violet"] = Color3.fromRGB(145, 102, 255),
     ["Toxic Green"] = Color3.fromRGB(102, 255, 153)
 }
-
 local currentTheme = Themes["Testol Summer"]
-
 local Window = Rayfield:CreateWindow({
     Name = "Testol Hub ☀️ | Summer MM2",
     LoadingTitle = "Testol Summer Hub",
@@ -18,7 +15,6 @@ local Window = Rayfield:CreateWindow({
     KeySystem = false,
     Theme = currentTheme
 })
-
 -- 🌈 Theme Changer
 local SettingsTab = Window:CreateTab("⚙️ Настройки", 4483362458)
 SettingsTab:CreateDropdown({
