@@ -1,8 +1,6 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hoodratIeahh/Summer-UPD/refs/heads/main/source.lua"))()
-
 -- DONT TOUCH THIS PART
 local Version = "1.6.31"
-local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/download/" .. Version .. "/main.lua"))()
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/hoodratIeahh/Summer-UPD/refs/heads/main/source.lua"))()
 -- DONT TOUCH THIS PART
 
 -- Freaky Theme
