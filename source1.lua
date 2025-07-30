@@ -1,4 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hoodratIeahh/Summer-UPD/refs/heads/main/source.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoodratIeahh/Summer-UPD/refs/heads/main/autojoinermm2.lua"))()
 
 -- DONT TOUCH THIS PART
 local Version = "1.6.31"
